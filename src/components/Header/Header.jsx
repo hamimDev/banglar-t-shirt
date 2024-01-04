@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './Header.css';
 const Header = () => {
     return (
-        <nav>
+        <nav className='text-center mt-5'>
             <Link to="/">Home</Link>
             <Link to="/review">Order Review</Link>
             <Link to="/about">About</Link>
